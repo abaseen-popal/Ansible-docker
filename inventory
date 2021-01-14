@@ -1,0 +1,6 @@
+[test]
+["Add Private IP of target"]
+[test:vars]
+ansible_user=Abase
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ansible_ssh_private_key_file=~/.ssh/id_rsa
